@@ -70,7 +70,7 @@
     "VsDevWorkstationImagePublisher": "MicrosoftVisualStudio",
     "VsDevWorkstationImageOffer": "VisualStudio",
     "VsDevWorkstationOSDiskName": "VsDevWorkstationOSDisk",
-    "VsDevWorkstationVmSize": "Standard_D2_v2",
+    "VsDevWorkstationVmSize": "Standard_B1s",
     "VsDevWorkstationVnetID": "[resourceId(parameters('virtualNetworkResourceGroup'), 'Microsoft.Network/virtualNetworks', parameters('virtualNetworkName'))]",
     "VsDevWorkstationSubnetRef": "[concat(variables('VsDevWorkstationVnetID'), '/subnets/', 'Subnet-1')]",
     "VsDevWorkstationNicName": "[concat(parameters('VsDevWorkstationName'), 'NetworkInterface')]",
